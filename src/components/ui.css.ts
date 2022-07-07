@@ -312,7 +312,7 @@ export const text: Record<TextVariants, string> = styleVariants({
       letterSpacing: theme.letterSpacings.tight,
       "@media": {
         [media.medium]: {
-          fontSize: theme.fontSizes[6],
+          fontSize: theme.fontSizes[5],
         },
       },
     },
