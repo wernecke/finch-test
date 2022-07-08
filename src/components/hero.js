@@ -22,6 +22,7 @@ export default function Hero(props) {
             {props.image && (
               <GatsbyImage
                 alt={props.image.alt}
+                backgroundColor='transparent'
                 image={getImage(props.image.gatsbyImageData)}
               />
             )}

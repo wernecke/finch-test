@@ -24,6 +24,7 @@ export const navGroupTitle = style([
 ])
 
 export const navGroupTitleInner = style({
+  fontWeight: "bold",
   "@media": {
     [media.small]: {
       alignItems: "baseline",
